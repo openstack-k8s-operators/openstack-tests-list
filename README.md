@@ -1,10 +1,10 @@
-openstack-tempest-operator
+openstack-tests-list
 ==========================
 
 Overview
 --------
 
-openstack-tempest-operator will generate a skip-list/allow-list to be executed by tempest.
+openstack-tests-list will generate a skip-list/allow-list to be executed by tempest.
 Each component can manage their own skiplist/allowlist or can use default.
 
 -  Free software: Apache license
@@ -22,8 +22,8 @@ Installation
 
 Installing from git and virtualenv::
 
-    $ git clone git@github.com:openstack-k8s-operators/openstack-tempest-operator.git
-    $ cd openstack-tempest-operator
+    $ git clone git@github.com:openstack-k8s-operators/openstack-tests-list.git
+    $ cd openstack-tests-list
 
 Examples
 --------
