@@ -1,0 +1,6 @@
+- project:
+    github-check:
+      debug: true
+      jobs:
+        - tox-linters:
+            nodeset: rdo-centos-9-stream
